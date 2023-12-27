@@ -9,7 +9,6 @@ body {
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
   margin: 0;
@@ -20,7 +19,6 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 .dimension {
   max-width: 100px;
@@ -62,6 +60,7 @@ p {
 
 .about-paragraphs p {
   margin: 10px;
+  text-align: center;
 }
 
 .email-link {
@@ -86,19 +85,10 @@ p {
   font-size: 72px;
 }
 
-.btn-primary {
-  border-radius: 4px !important;
-  padding: 20px 15px !important;
-  text-decoration: none !important;
-  text-transform: capitalize !important;
-  background: var(--primary-color) !important;
-  box-shadow: var(--box-shadow) !important;
-  color: white !important;
-}
-
 .my-description {
   opacity: 0.7;
   font-size: 26px;
+  text-align: center;
 }
 
 .my-name {
@@ -106,14 +96,29 @@ p {
 }
 
 @media (max-width: 576px) {
+  p {
+    display: block;
+    text-align: center;
+  }
+  h2 {
+    display: block;
+    text-align: center;
+  }
   .about-heading {
     font-size: 40px;
+  }
+  .my-name {
+    font-size: 40px;
+  }
+  .hi {
+    font-size: 30px;
   }
   .sample-images {
     display: none;
   }
-  .my-content {
+  .primary-link {
     display: block;
-    margin: 0 auto;
+    text-align: center;
+    margin: 0 50px;
   }
 }
