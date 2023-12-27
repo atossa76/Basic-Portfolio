@@ -55,12 +55,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -84,7 +78,12 @@ p {
 
 .hi {
   margin-top: 100px;
-  font-size: 45px;
+  font-size: 48px;
+}
+
+.about-heading {
+  margin-top: 100px;
+  font-size: 72px;
 }
 
 .btn-primary {
@@ -104,4 +103,17 @@ p {
 
 .my-name {
   font-size: 70px;
+}
+
+@media (max-width: 576px) {
+  .about-heading {
+    font-size: 40px;
+  }
+  .sample-images {
+    display: none;
+  }
+  .my-content {
+    display: block;
+    margin: 0 auto;
+  }
 }
