@@ -94,6 +94,9 @@ p {
 .my-name {
   font-size: 70px;
 }
+#contact h2 {
+  text-align: center;
+}
 
 @media (max-width: 576px) {
   p {
